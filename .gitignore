@@ -1,0 +1,171 @@
+# SimpleKG - Local to Global GraphRAG Implementation
+# .gitignore file
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# AWS credentials and config
+.aws/
+aws-credentials.json
+
+# Medical data - MIMIC dataset
+mimic_ex_500/
+mimic*/
+*.mimic
+medical_data/
+patient_data/
+
+# Generated data files
+data/processed/
+data/graphs/
+data/raw/
+*.json
+!requirements.json
+!package.json
+
+# Extraction outputs
+*_extractions*.json
+*_summaries*.json
+*_assignments*.json
+*_stats*.json
+community_summaries_*.json
+er_extractions_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Neo4j
+.neo4j/
+neo4j/
+*.db
+*.log
+
+# Screenshots and images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+*_scrot.png
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+*~
+
+# Test files
+test_*.py
+*_test.py
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Large model files
+*.model
+*.pkl
+*.pickle
+models/
+
+# Cache directories
+.cache/
+cache/
+__pycache__/
+
+# Node.js (if any frontend components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Keep important files
+!README.md
+!requirements.txt
+!main.py
+!cypher_queries.md
+!src/
+!reference/
+
+# Keep directory structure but ignore contents
+data/processed/.gitkeep
+data/graphs/.gitkeep
+data/raw/.gitkeep
+
+# Ignore specific output files but keep examples
+!*_example.json
+!sample_*.json
