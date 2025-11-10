@@ -32,6 +32,20 @@ Raw Medical Data → Entity Extraction → Knowledge Graph → Community Detecti
    - Local and global query routing
    - Interactive medical Q&A system
 
+## 📸 Screenshots
+
+### Knowledge Graph Visualization
+
+![Knowledge Graph in Neo4j](screenshots/2025-09-15-005030_1920x1080_scrot.png)
+
+*Neo4j Browser showing the medical knowledge graph with entities (conditions, medications, procedures) and their relationships. The graph visualization demonstrates the interconnected nature of medical concepts extracted from clinical reports.*
+
+### Query System in Action
+
+![Query Processing System](screenshots/2025-09-15-005048_1920x1080_scrot.png)
+
+*Interactive query system demonstrating both local and global query capabilities. The system intelligently routes queries to either specific entities or community summaries based on the question type.*
+
 ## 📁 Project Structure
 
 ```
