@@ -89,14 +89,12 @@ neo4j/
 *.log
 
 # Screenshots and images
-*.png
 *.jpg
 *.jpeg
 *.gif
 *.bmp
 *.tiff
 *.svg
-*_scrot.png
 
 # Logs
 *.log
